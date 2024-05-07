@@ -41,3 +41,9 @@ Modeline ""1920x1080_60.00"  173.00  1920 2048 2248 2576  1080 1083 1088 1120 -h
 ###     Option        "Disable" "true"
 EndSection 
 -----------
+
+# ZSH
+dnf install zsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+sudo dnf install util-linux-user
+chsh -s $(which zsh)
