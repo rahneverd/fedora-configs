@@ -37,3 +37,7 @@ sudo dnf install gnome-tweaks
 # GNOME EXTENSIONS
 https://extensions.gnome.org/extension/307/dash-to-dock/
 
+# ANACONDA - PYTHON
+curl -O https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
+bash ~/Downloads/Anaconda3-2024.02-1-Linux-x86_64.sh
+
