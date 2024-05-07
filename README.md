@@ -41,3 +41,7 @@ https://extensions.gnome.org/extension/307/dash-to-dock/
 curl -O https://repo.anaconda.com/archive/Anaconda3-2024.02-1-Linux-x86_64.sh
 bash ~/Downloads/Anaconda3-2024.02-1-Linux-x86_64.sh
 
+# ZOOM
+downlaod rpm pkg and gpg key from https://zoom.us/download?os=linux
+gpg --import ~/Downloads/package-signing-key-5-12-6.pub
+sudo dnf install ~/Downloads/zoom_86_64.rpm   
