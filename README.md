@@ -1,4 +1,5 @@
 # fedora-configs
+# FEDORA WORKSTATION 33
 
 # GNOME TWEAKS
 sudo dnf install gnome-tweaks 
@@ -47,3 +48,10 @@ dnf install zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 sudo dnf install util-linux-user
 chsh -s $(which zsh)
+
+# GNOME TWEAKS
+sudo dnf install gnome-tweaks 
+
+# GNOME EXTENSIONS
+https://extensions.gnome.org/extension/307/dash-to-dock/
+
